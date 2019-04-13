@@ -310,3 +310,9 @@ function Export-ADMPolicy
     $Output
 
 }
+
+Export-ModuleMember -Function New-ADMCategory
+Export-ModuleMember -Function New-ADMPolicy
+Export-ModuleMember -Function New-ADMPolicyItemList
+Export-ModuleMember -Function New-ADMPolicyPart
+Export-ModuleMember -Function New-ADMTemplate
